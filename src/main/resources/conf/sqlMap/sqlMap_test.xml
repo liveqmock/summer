@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sqlMap namespace="test">
+	<sql id="select">
+    	<![CDATA[
+    	    SELECT * FROM TT_USERS WHERE USER_ID = ${USER_ID}
+    	]]>
+	</sql>
+	<sql id="delete">
+    	<![CDATA[
+    	    DELETE FROM TT_USERS WHERE USER_ID = ${USER_ID}
+    	]]>
+	</sql>
+</sqlMap>
