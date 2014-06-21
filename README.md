@@ -2,4 +2,4 @@ summer
 ======
 
 >A Data Access Layer Framework 
->Depend on Spring
+>Depends on Spring
